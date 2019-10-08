@@ -2,8 +2,8 @@
 {-# LANGUAGE QuasiQuotes       #-}
 module Home where
 
-import Foundation
-import Yesod.Core
+import           Foundation
+import           Yesod.Core
 
 getHomeR :: Handler Html
 getHomeR = defaultLayout $ do
