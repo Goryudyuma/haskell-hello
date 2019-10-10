@@ -17,6 +17,8 @@ dependencies:
   - warp
   - wai
   - base >= 4.7 && < 5
+  - text
+  - bytestring
 name: wai-test
 version: 0.1.0.0
 extra-source-files:
